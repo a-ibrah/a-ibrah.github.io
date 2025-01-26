@@ -787,6 +787,24 @@ footer {
     }
 }
 
+    .social-icons {
+        display: inline-flex;
+        gap: 10px; /* Space between icons */
+        align-items: center; /* Align icons with button */
+        margin-left: 15px; /* Add spacing between the button and icons */
+    }
+
+    .social-icons img {
+        height: 2.5rem; /* Matches the height of the resume button */
+        width: auto; /* Maintain aspect ratio */
+        cursor: pointer; /* Add a pointer cursor */
+        transition: transform 0.2s; /* Smooth hover effect */
+    }
+
+    .social-icons img:hover {
+        transform: scale(1.1); /* Slightly enlarge on hover */
+    }
+
 /*
     ---------------------------------------
     ----- 11. Optional Section Styles -----
